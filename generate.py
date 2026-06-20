@@ -165,7 +165,7 @@ def validate_ip(ip: str) -> bool:
         return all(0 <= int(p) <= 255 for p in parts)
     except ValueError:
         return False
-git remote add origin
+
 def validate_port(s: str) -> int:
     try:
         p = int(s)
